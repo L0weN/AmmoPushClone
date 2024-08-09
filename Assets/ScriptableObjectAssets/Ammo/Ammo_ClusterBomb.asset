@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b009b3a258bcd45a1830d2ebaa03a0, type: 3}
+  m_Name: Ammo_ClusterBomb
+  m_EditorClassIdentifier: 
+  ammoName: Cluster
+  prefab: {fileID: 2656187362820226886, guid: 7619baec9715e91469668288c5929c52, type: 3}
+  icon: {fileID: 21300000, guid: e63812fcd5d625043b2cb0758ad428eb, type: 3}
+  damage: 32
+  count: 0
+  minPlayerLevelToSpawn: 8
+  poolSize: 10

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6847353354339138922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1632340760129840612}
+  - component: {fileID: 6744714479644206500}
+  m_Layer: 0
+  m_Name: Game Resources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1632340760129840612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847353354339138922}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6744714479644206500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847353354339138922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c34350d34cd4e4bb7c954e1602cf99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoUnparentOnAwake: 1
+  gameData:
+    Name: 
+    playerData:
+      playerLevel: 1
+      playerCoin: 0
+  powerUpList:
+  - {fileID: 11400000, guid: fc7b77178b3cc024eb3f583dae65fceb, type: 2}
+  - {fileID: 11400000, guid: 72b4e3d9935e13e40be0b38c99e11c5e, type: 2}
+  - {fileID: 11400000, guid: 927afa6b98f5bc94d9fcd328634e1069, type: 2}
+  ammoList:
+  - {fileID: 11400000, guid: b19b97d797c2f8e478bdf03c4dc0f394, type: 2}
+  - {fileID: 11400000, guid: 78a3460465fb2974b839235bbd712c6b, type: 2}
+  - {fileID: 11400000, guid: b1165171ce2ce224986674fcbae97324, type: 2}
+  - {fileID: 11400000, guid: 7a0a86f195d60c744af9516aee4eaff1, type: 2}
+  - {fileID: 11400000, guid: 715b4e9e0d464dc43afefdf62c18e701, type: 2}
+  - {fileID: 11400000, guid: 2058c8fc009e1ba4baca6faa14a66d3e, type: 2}
+  - {fileID: 11400000, guid: a29861fdb22ffd24f85a2bba54ba6c92, type: 2}
+  - {fileID: 11400000, guid: 523269890aabe5b4c87d2d6002b22efd, type: 2}
+  - {fileID: 11400000, guid: 270cca4092c8fbe44baee9caaf9bcb91, type: 2}
+  - {fileID: 11400000, guid: 09c14dcdf7e5dd44aa89c60bb494c18a, type: 2}
+  powerUpPrefab: {fileID: 4467779362172515014, guid: 99b3233bde650d447b2dee45f26ebc2d, type: 3}
+  ammoPrefab: {fileID: 1921487451273815138, guid: 068d563603c36df4e97a1dc0dc202f21, type: 3}
+  playerPrefab: {fileID: 1745469166325665666, guid: 2f7d22823f543fe46ad6760d7875e634, type: 3}

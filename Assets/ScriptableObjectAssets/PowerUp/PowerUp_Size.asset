@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a4da17ad686c3c478bfd796f17cdae4, type: 3}
+  m_Name: PowerUp_Size
+  m_EditorClassIdentifier: 
+  powerUpName: Size
+  powerUpLevel: 1
+  powerUpSprite: {fileID: 21300000, guid: 68759619073cc2e489b20b8b80eb92fd, type: 3}
+  powerUpPressedSprite: {fileID: 21300000, guid: e97490b8cc55aec479e844d67a98e714, type: 3}
+  powerUpDisabledSprite: {fileID: 21300000, guid: 131a7d51c77f6d440bc65415ec9029db, type: 3}

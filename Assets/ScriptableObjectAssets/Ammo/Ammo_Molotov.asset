@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b009b3a258bcd45a1830d2ebaa03a0, type: 3}
+  m_Name: Ammo_Molotov
+  m_EditorClassIdentifier: 
+  ammoName: Molotov
+  prefab: {fileID: 3239946169270314057, guid: 6cf19fc0b46c10d4285d7781be0a4911, type: 3}
+  icon: {fileID: 21300000, guid: 67820cb56b678ab4ca313d72cb92b16d, type: 3}
+  damage: 8
+  count: 0
+  minPlayerLevelToSpawn: 2
+  poolSize: 10
